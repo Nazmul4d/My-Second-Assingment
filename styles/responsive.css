@@ -67,4 +67,25 @@
                     letter-spacing: 0.3px;
                     text-align: center;
           }
+
+          .run-section{
+                    flex-direction: column;
+          }
+          .run-content,.run-btn{
+                    width: 100%;
+                    text-align: center;
+          }
+          .run-text h2{
+                    width: 100%;
+          }
+          .run-text p{
+                    width: 100%;
+          }
+          .run-img-container, img{
+                    width: 100%;
+          }
+
+
+
+
 }
