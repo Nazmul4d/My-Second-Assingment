@@ -340,3 +340,140 @@ ul{
 
 /* run-section-css-style */
 
+/* bmi-section-css-style */
+
+
+.bmi-text-section{
+    width: 70%;
+    margin: 0 auto;
+    margin-top:  3rem;
+}
+
+.bmi-content{
+    width: 60%;
+    margin: 0 auto;
+    
+}
+.bmi-content h2{
+          color: rgb(255, 255, 255);
+          font-family: Inter;
+          font-size: 2.2rem;
+          font-weight: 900;
+          line-height: 120%;
+          text-align: left;
+}
+.bmi-content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.7rem;
+    font-weight: 400;
+    line-height: 1rem;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+.bmi-calculate-section{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 3rem ;
+    background: rgb(34, 34, 34);
+}
+.bmi-container{
+    width: 70%;
+    margin: 0 auto;
+    display: flex; 
+    gap: 4rem;
+}
+
+.bmi-calculator{
+    width: 30%;
+    margin: 1.5rem;
+   
+}
+
+.bmi-calculate{
+    width: 50%;
+    margin: 1.5rem;
+}
+
+.bmi-calculator h4{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: left;
+}
+table{
+    border-collapse: collapse;
+}
+thead tr{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 120%;
+    text-align: left;
+}
+table td , th {
+ border: 1px solid rgba(255, 255, 255, 0.1);
+ padding: 5px 10px;
+ color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 0.8rem;
+font-weight: 200;
+/* line-height: 120%; */
+text-align: left;
+}
+
+.bmi-calculate h4{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: left;
+}
+
+.bmi-calculate p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 0.7rem;
+font-weight: 200;
+/* line-height: 120%; */
+text-align: left;
+}
+.bmi-calculate button{
+    margin-top: 2rem;
+}
+
+.input-file{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    gap: 0.5rem;
+    margin-top:2rem ;
+}
+
+.input-file input , select{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    width: calc(100% - 10px);
+    height: 2rem;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;
+    font-size: 0.7rem;
+    font-weight: 400;
+    line-height: 22px;
+    padding-left: 10px;
+    text-align: left; 
+
+ }
+.select-input{
+    display: grid;
+    grid-template-columns: repeat(1,2fr);
+    margin-top: 0.5rem;
+}
+
+/* bmi-section-css-style */
+

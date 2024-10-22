@@ -68,7 +68,7 @@
                     text-align: center;
           }
 
-          .run-section{
+          .run-section, .bmi-container{
                     flex-direction: column;
           }
           .run-content,.run-btn{
@@ -84,7 +84,14 @@
           .run-img-container, img{
                     width: 100%;
           }
-
+          .bmi-calculator, .bmi-calculate{
+            width: 100%;
+            margin: 0 auto;
+          }
+          .bmi-content{
+            margin-left: 0px;
+            width: 100%;
+          }
 
 
 
