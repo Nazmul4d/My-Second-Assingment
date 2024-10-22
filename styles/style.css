@@ -436,7 +436,7 @@ text-align: left;
 }
 
 .bmi-calculate p{
-    color: rgba(255, 255, 255, 0.5);
+color: rgba(255, 255, 255, 0.5);
 font-family: Inter;
 font-size: 0.7rem;
 font-weight: 200;
@@ -477,3 +477,85 @@ text-align: left;
 
 /* bmi-section-css-style */
 
+/* meet-section-css-style */
+
+.section-meet{
+    width: 70%;
+    margin: 0 auto;
+    /* border: 2px solid red; */
+    margin-top: 1.5rem;
+}
+.meet-content{
+    width: 60%;
+    margin: 0 auto;
+    /* border: 2px solid yellow; */
+
+}
+.meet-content h2{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 120%;
+    text-align: center;
+}
+.meet-content p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.7rem;
+    font-weight: 200;
+    /* line-height: 120%; */
+    text-align: center;
+}
+
+.meet-container img{
+    width: 100%;
+    height: 300px;
+    filter: brightness(80%);
+    border-radius: 8px;
+   
+
+}
+
+.img-row-1 h5{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 120%;
+    text-align:left;
+}
+.img-row-1 span{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 0.5rem;
+    font-weight: 200;
+    /* line-height: 120%; */
+    text-align: left;
+    margin-top: 0;
+}
+
+.meet-content{
+    position: relative;
+    
+}
+.card{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 20px;
+}
+.meet-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 1.5rem;
+}
+
+.meet-img-container{
+    margin-top: 2rem;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    
+}
+
+/* meet-section-css-style */
