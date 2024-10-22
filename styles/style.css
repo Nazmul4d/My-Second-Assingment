@@ -89,40 +89,30 @@ ul{
 
 .banner-content{
           width: 50%;
-          border: 2px solid yellow;
+
                
 }
 
 .banner-image{
           width: 50%;
-          border: 2px solid red;
-        
-        
- 
+
 }
 .img-content{
     width: 80%;
-    border: 2px solid red;
     margin: 0 auto;
-    
     height: 100%;
     
 }
 .img-content img{
           width: 100%;
           height: 100%;
-
-          
-
-          
-
 }
 
 
 .banner-text{
           width: 80%;
           margin-top: 30%;
-          border: 2px solid blue;
+         
 }
 
 #font-style{
@@ -200,6 +190,7 @@ ul{
     
 }
 .banner-image-contain{
+    width: 100%;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -224,9 +215,10 @@ ul{
     text-align: left;
 }
 .img-text-1{
+
     position: absolute;
-    margin-left: 220px;
-    margin-top: -460px;
+    margin-left: 200px;
+    margin-top: -550px;
 }
 .img-text-1 h4{
     color: rgb(255, 255, 255);
@@ -247,8 +239,9 @@ ul{
     text-align: left;
 }
 .img-text-1{
+    width: 70%;
     background-color: rgb(255, 255, 255, 0.2);
-    width: 8.2rem;
+    width: 7rem;
     height: 4rem;
     border-radius: 8px;
     backdrop-filter: blur(35px);
