@@ -112,6 +112,26 @@
             margin-top: -400px;
         }
 
+        .row-1{
+          flex-direction: row;
+          grid-template-columns: repeat(2 , 1fr);
+          /* margin-top: 40px;
+          margin-bottom: 40px; */
+          gap: 0px;
+          margin-top: 0px;
+        }
+        .exercise3{
+          display: none;
+        }
+        .row-2{
+          flex-direction: row;
+          grid-template-columns: repeat(2 , 1fr);
+          /* margin-top: 40px;
+          margin-bottom: 40px; */
+          gap: 0px;
+          margin-top: 0px;
+        }
+        
 
 
 }
